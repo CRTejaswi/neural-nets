@@ -1,0 +1,21 @@
+// Parameter definitions
+`define pretrained
+`define numLayers 5
+`define dataWidth 31
+`define sigmoidSize 5
+`define weightIntWidth 1
+`define Layer1ActType "sigmoid"
+`define Layer2ActType "sigmoid"
+`define Layer3ActType "sigmoid"
+`define Layer4ActType "sigmoid"
+`define Layer5ActType "hardmax"
+`define numNeuronLayer1 30
+`define numNeuronLayer2 30
+`define numNeuronLayer3 10
+`define numNeuronLayer4 10
+`define numNeuronLayer5 10
+`define numWeightLayer1 784
+`define numWeightLayer2 30
+`define numWeightLayer3 30
+`define numWeightLayer4 10
+`define numWeightLayer5 10
